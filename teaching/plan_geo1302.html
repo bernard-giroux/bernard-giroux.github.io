@@ -1,0 +1,115 @@
+---
+layout: default
+title: Plan de Cours - Modélisation et inversion en géophysique
+---
+<div class="blurb">
+	<h1>GEO1302 - Modélisation et inversion en géophysique</h1>
+	<h2>Description générale</h2>
+	<p>
+		Ce cours traite des problèmes directs et inverses en géophysique appliquée.
+	</p>
+	<h2>Objectifs</h2>
+	<ul>
+		<h3>Modélisation</h3>
+			<p>Cette partie du cours vise à développer des compétences en
+modélisation numérique des réponses géophysiques.  À la fin,
+l'étudiant connaîtra les fondements des principales méthodes de
+modélisation en gravimétrie, magnétisme, sismique, et (si le
+temps le permet) électromagnétisme.  Il maîtrisera les principaux
+paramètres qui influencent la rapidité, la précision et la robustesse
+des calculs.  L'étudiant sera également en mesure de programmer des
+codes simples en python ou en matlab.</p>
+		<h3>Inversion</h3>
+		<p>Le but de cette partie du cours est de développer des compétences en
+optimisation numériques (inversion) des réponses géophysiques vues
+dans la première partie. À la fin de cette partie, l'étudiant
+connaîtra la théorie et la mise en pratique de l'inversion
+déterministe linéaire, non-linéaire ainsi que de l'inversion
+stochastique. L'étudiant sera en mesure de développer ses propres
+codes d'inversion.</p>
+	</ul>
+	<h2>Contenu</h2>
+		<h3>Modélisation</h3>
+		<h4>Introduction</h4>
+		<ul>
+			<li>Motivation</li>
+			<ul>
+				<li>Planification des levés de terrain</li>
+				<li>Études de sensibilité</li>
+				<li>Pierre d’assise de l’inversion</li>
+			</ul>
+			<li>Notions utiles en calcul numérique</li>
+			<ul>
+				<li>Précision des calculs</li>
+				<li>Gestion de la mémoire</li>
+				<li>Calcul sériel et calcul parallèle</li>
+				<li>Plateformes de calcul: CPU, GPU, grappes</li>
+			</ul>
+			<li>Discrétisation</li>
+			<ul>
+				<li>Grilles régulières et maillages non structurés</li>
+				<li>Différences finies, ordre des opérateurs</li>
+			</ul>
+			<li>Programmation orientée-objet</li>
+			<ul>
+				<li>Modularité</li>
+				<li>Abstraction</li>
+				<li>Encapsulation</li>
+				<li>Héritage</li>
+				<li>Polymorphisme</li>
+			</ul>
+		</ul>
+		<h4>Gravimétrie et magnétisme</h4>
+		<ul>
+			<li>Méthode par intégrale de surface et de contour</li>
+			<li>Méthode par volumes finis</li>
+			<li>Rémanence en magnétisme</li>
+		</ul>
+		<h4>Sismique</h4>
+		<ul>
+			<li>Méthode FDTD</li>
+			<ul>
+				<li>Équation d’onde</li>
+				<li>Grille décalée, stabilité, dispersion numérique</li>
+				<li>Marche temporelle : <em>Leap frog</em>, Runge-Kutta</li>
+				<li><em>Perfectly-Matched-Layers</em></li>
+			</ul>
+		</ul>
+		<h4>Méthodes électriques et EM</h4>
+		<ul>
+			<li>Résistivité DC en 3D et différences finies</li>
+			<li>Conditions aux frontières</li>
+			<li>Éléments finis en EM</li>
+		</ul>
+		<h3>Inversion</h3>
+		<h4>Optimisation linéaire</h4>
+		<ul>
+			<li>Propriétés d’un programme linéaire</li>
+			<li>Méthode du simplexe</li>
+			<li>Problème dual</li>
+			<li>Exemples</li>
+		</ul>
+		<h4>Optimisation non linéaire</h4>
+		<ul>
+			<li>Méthodes de descentes</li>
+			<ul>
+				<li>Méthode de Fibonaccci et section dorée</li>
+				<li>Méthode des gradients conjugués</li>
+				<li>Méthodes de Gauss-Newton</li>
+				<li>Exemples</li>
+			</ul>
+			<li>Méthodes stochastiques</li>
+			<ul>
+				<li>Méthodes d’inversion stochastiques directes</li>
+				<li>Filtres de Kalman d’ensemble</li>
+				<li>Méthodes heuristiques (recuit simulé)</li>
+				<li>Exemples</li>
+			</ul>
+		</ul>
+	<h2>Évaluation</h2>
+	<p>
+		L’évaluation se fera par des travaux pratiques en python ou atlab.
+	<h2>Prérequis</h2>
+		<p>L'étudiant doit maitriser le language python ou le language matlab.</p>
+	</p>
+</div><!-- /.blurb -->
